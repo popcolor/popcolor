@@ -9,7 +9,7 @@ body {
   background-color: #fff;
 }
 
-#site-header-sticky {
+#navigation {
   background-color: rgba(0, 0, 0, 0.85);
   display: block;
   box-sizing: border-box;
@@ -48,4 +48,25 @@ body {
   padding-bottom: 8px;
   padding-top: 8px;
   text-decoration-line: none;
+}
+
+#cta {
+  box-sizing: border-box;
+  overflow: auto;
+  display: block;
+  background-color: rgb(96, 146, 197);
+  color: rgb(33, 37, 41);
+  height: 534px;
+  text-align: center;
+  padding: 5rem;
+}
+
+#col-md {
+  max-width: 470px;
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
